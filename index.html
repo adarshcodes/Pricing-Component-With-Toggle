@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pricing Component With Toggle</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Montez|Montserrat:400,600,600i,700,800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <!-- Header -->
+    <div class="header">
+      <div class="heading">
+        <h1>Our Pricing</h1>
+      </div>
+      <div class="toggle">
+        <div class="toggle-para">
+          <p>Annually</p>
+        </div>
+        <div class="switch-toggle">
+          <label class="switch">
+            <input type="checkbox" onclick="pricing();">
+            <span class="slider round"></span>
+          </label>
+        </div>
+        <div class="toggle-para">
+          <p>Monthly</p>
+        </div>
+      </div>
+    </div>
+    <!-- End of Header -->
+
+    <!-- Cards section -->
+    <div class="cards">
+      <div class="card1 card">
+        <h2 class="type">Basic</h2>
+        <div class="card-price">
+          <h1 class="usd">$</h1>
+          <h1 class="price">19.99</h1>
+        </div>
+        <div class="offerings">
+          <hr>
+          <div class="storage">
+            <p>500 GB Storage</p>
+          </div>
+          <hr>
+          <div class="users-allowed">
+            <p>2 Users Allowed</p>
+          </div>
+          <hr>
+          <div class="transaction">
+            <p>Send Upto 3 GB</p>
+          </div>
+          <hr>
+        </div>
+        <div class="btn">
+          <button type="button" name="button" class="hero-btn">
+            Learn More
+          </button>
+        </div>
+      </div>
+      <div class="card2 card">
+        <h2 class="type type-pro">Professional</h2>
+        <div class="card-price">
+          <h1 class="usd usd-pro">$</h1>
+          <h1 class="price price-pro">24.99</h1>
+        </div>
+        <div class="offerings off-card2">
+          <hr>
+          <div class="storage storage-card2">
+            <p>1 TB Storage</p>
+          </div>
+          <hr>
+          <div class="users-allowed user-card2">
+            <p>5 Users Allowed</p>
+          </div>
+          <hr>
+          <div class="transaction tran-card2">
+            <p>Send Upto 10 GB</p>
+          </div>
+          <hr>
+        </div>
+        <div class="btn">
+          <button type="button" name="button" class="hero-btn-2">
+            Learn More
+          </button>
+        </div>
+      </div>
+      <div class="card3 card">
+        <h2 class="type">Master</h2>
+        <div class="card-price">
+          <h1 class="usd">$</h1>
+          <h1 class="price price-master">39.99</h1>
+        </div>
+        <div class="offerings">
+          <hr>
+          <div class="storage">
+            <p>2 TB Storage</p>
+          </div>
+          <hr>
+          <div class="users-allowed">
+            <p>10 Users Allowed</p>
+          </div>
+          <hr>
+          <div class="transaction">
+            <p>Send Upto 20 GB</p>
+          </div>
+          <hr>
+        </div>
+        <div class="btn">
+          <button type="button" name="button" class="hero-btn">
+            Learn More
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- End of Cards Section -->
+
+    <!-- Footer Section -->
+
+    <div class="footer">
+      <div class="challenge">
+        <p>Challenge By<a href="https://www.frontendmentor.io/?ref=challenge"> Frontend Mentor </a></p>
+      </div>
+      <div class="codedby">
+        <p class="copy-para"><i class="fas fa-code icon"></i> with <i class="fas fa-heart icon"></i> by<a href="https://twitter.com/adarshcodes" class="twitad" target="_blank"> Adarshcodes</a></p>
+      </div>
+    </div>
+
+
+
+    <!-- Enf of Footer Section -->
+
+  </div>
+</body>
+
+</html>
